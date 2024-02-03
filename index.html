@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scaler Social</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- Header of the project includes 2 logos -->
+    <header>
+        <!-- <h1>Scaler School of technlogy</h1> -->
+        <img src="./assets/SST_Logo.png" alt="scaler School of technlogy">
+        <img src="./assets/scaler-social.png" alt="scaler scocial">
+        <!-- <h1>Scaler Social</h1> -->
+    </header>
+
+    <!-- main section of the project including Post container and Feeds -->
+    <main>
+
+        <!-- post container includes 3 sections -->
+      <section class="container">
+        <section class="post-container">
+            <h1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Post your thoughts here</h1>
+            <!-- POST CARD DIVIDED in 2 sections upper and lower -->
+            <section class="post-card">
+
+                <!-- uppper contains user icon and writing area -->
+                <section class="upper">
+                    <section class="user-icon">
+                        <img src="./assets/profile_image.png" alt="" width="45px" height="45px">
+                    </section>
+                    <section class="post-area">
+                        <textarea name="" class="text-area" placeholder="Type your thoughts here..."></textarea>
+                    </section>
+                </section>
+
+                <!-- lower contains  character count component and post button-->
+                <section class="lower">
+                    <p class="char-count">0/100</p>
+                    <button class="post-button">Post</button>
+                </section>
+            </section>
+
+        </section>
+      </section>
+
+        <!-- Post Container end---x---- -->
+
+        
+        <section class="feeds">
+            <h1>Your Feeds</h1>
+            <section class="feed-container">
+
+                <section class="feed-card">
+
+                    <section class="user-icon">
+                        <img src="./assets/profile_image.png" width="40px" height="40px" alt="">
+                    </section>
+
+                    <section class="feed-content">
+        
+                       <section class="username">
+                        <h3>Joanne Graham</h3>
+                        <span>@joanegraham123</span>
+                        <img class="edit" src="./assets/edit.png" alt="edit button">
+                        <img class="delete" src="./assets/delete.png" alt="delete button">
+                       </section>
+
+                       <section class="feed-post">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, velit.</section>
+
+                       <section class="feed-reactions">
+                        <img class="comment" src="./assets/comment.png" alt="">
+                        <img  class="like" src="./assets/heart.png" alt="">
+                        <label for="reaction">Reacted: 567</label>
+                       </section>
+
+
+                    </section>
+                </section>
+                <!-- feed card ends -->
+
+                <section class="feed-comments">
+                    <section class="feed-card">
+
+                        <section class="user-icon">
+                            <img src="./assets/profile_image.png" width="30px" height="30px" alt="">
+                        </section>
+    
+                        <section class="feed-content">
+            
+                           <section class="username">
+                            <!-- <h3>Joanne Graham</h3> -->
+                            <span>@joanegraham123</span>
+                            <img class="edit" src="./assets/edit.png" alt="edit button">
+                            <img class="delete" src="./assets/delete.png" alt="delete button">
+                           </section>
+    
+                           <section class="feed-post">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, velit.</section>
+    
+                           <section class="feed-reactions">
+                            
+                            <img  class="like" src="./assets/heart.png" alt="">
+                            <label for="reaction">Reacted: 567</label>
+                           </section>
+    
+    
+                        </section>
+                    </section>
+                </section>
+
+            </section>
+
+        </section>
+    </main>
+</body>
+<script src="index.js"></script>
+</html>
