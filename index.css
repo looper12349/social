@@ -316,6 +316,10 @@ textarea{
       height: 100vh;
     }
 
+    body img{
+    z-index: 5;
+}
+
     .container{
 
         /* height: 50vh; */
@@ -372,5 +376,9 @@ textarea{
     body{
         /* border: 2px solid green; */
     }
+    
+    body img{
+    z-index: 5;
+}
     
 }
