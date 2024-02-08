@@ -303,3 +303,74 @@ textarea{
     /* font-size: 3em; */
     
 }
+
+
+
+
+@media (max-width: 930px) {
+    main {
+      flex-direction: column;
+      /* other styles for smaller screens */
+      /* border: 1px solid black; */
+      width: 100vw;
+      height: 100vh;
+    }
+
+    .container{
+
+        /* height: 50vh; */
+        width: 100vw;
+        /* max-width: fit-content; */
+        /* display: flex; */
+        /* justify-content: center; */
+        /* align-items: center; */
+        /* border: 5px dashed purple; */
+        /* background-color: rgb(238, 243, 244); */
+    }
+
+    .feeds{
+        /* max-height: fit-content;*/
+        /* width: fit-content; */
+        /* height: 50vh; */
+        width: 100%;
+        padding: 10px;
+        /* overflow-y: scroll; */
+        /* overflow-x: hidden; */
+        /* margin-left: 10px; */
+        
+        padding-bottom: 50px;
+    }
+
+    .post-card{
+        width: 100%;
+    }
+
+    .post-card img{
+        
+    }
+
+    header{
+        justify-content: space-between;
+
+    }
+
+    header img{
+        width: 130px;
+        height: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+
+}
+
+@media (max-width: 425px) {
+    *{
+        font-size: 0.8rem;
+    }
+
+    body{
+        /* border: 2px solid green; */
+    }
+    
+}
